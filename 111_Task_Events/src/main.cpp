@@ -1,7 +1,6 @@
 #include <Arduino.h>
 
 #define GPIO_LED  21
-#define GPIO_LED2 19
 
 static TaskHandle_t htask1;
 
@@ -32,9 +31,6 @@ void setup() {
   app_cpu = xPortGetCoreID();
   pinMode(GPIO_LED, OUTPUT);
   digitalWrite(GPIO_LED, LOW);
-
-  pinMode(GPIO_LED2, OUTPUT);
-  digitalWrite(GPIO_LED2, LOW);
 
   delay(2000);
   printf("tasknfy2.ino: \n");
