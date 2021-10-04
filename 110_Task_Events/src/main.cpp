@@ -23,7 +23,7 @@ void setup() {
   digitalWrite(GPIO_LED, LOW);
 
   delay(2000);
-  printf("tasknfy1.ino");
+  printf("tasknfy1.ino: \n");
 
   rc = xTaskCreatePinnedToCore(
     task1,
