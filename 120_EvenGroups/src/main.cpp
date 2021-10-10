@@ -1,8 +1,8 @@
 #include <Arduino.h>
 
 // Update with you WiFi credentials
-#define WIFI_SSID   "vodafone16F8"
-#define WIFI_PASSWD "GTMLZW5UMNGTNL"
+#define WIFI_SSID   "XXXXX"
+#define WIFI_PASSWD "XXXXX"
 
 // LED GPIOs:
 #define GPIO_LED1   18
